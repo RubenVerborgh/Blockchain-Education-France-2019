@@ -6,6 +6,13 @@ p.venue {
   margin-bottom: 1em;
 }
 
+.slide.title h2 {
+  margin-bottom: 0;
+}
+.slide.title h3 {
+  font-size: 1.4em;
+}
+
 .slide figure.cover.width.margin > :first-child {
   width: 88%
 }
@@ -36,17 +43,4 @@ p.venue {
 
 .prefix {
   opacity: .5;
-}
-
-#architecture img {
-  top: 67%;
-  left: 67%;
-  height: 134%;
-  max-height: none;
-}
-
-#end h2 {
-  text-align: center;
-  margin: 3em 0;
-  font-size: 2em;
 }
