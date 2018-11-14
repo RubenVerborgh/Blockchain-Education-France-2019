@@ -45,6 +45,10 @@ ul.inline li {
   color: #453688;
 }
 
+.slide pre {
+  font-size: .7em;
+}
+
 .prefix {
   opacity: .5;
 }

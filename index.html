@@ -260,13 +260,10 @@
     </h2>
     <pre><code><span class="prefix">PREFIX as: &lt;https://www.w3.org/ns/activitystreams#&gt;
 PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
-&lt;#ruben-likes-iswc2018&gt; a as:Like;
+&lt;#ruben-likes-ebdvf2018&gt; a as:Like;
   as:actor  <mark>&lt;https://ruben.verborgh.org/profile/#me&gt;</mark>;
-  as:object <mark>&lt;http://iswc2018.semanticweb.org/#this&gt;</mark>;
-  as:published "2018-10-08T21:00:00Z"^^xsd:dateTime.</code></pre>
-    <p>
-      <strong>Link following</strong> is crucial to make this work.
-    </p>
+  as:object <mark>&lt;https://www.european-big-data-value-forum.eu/#this&gt;</mark>;
+  as:published "2018-11-14T14:00:00Z"^^xsd:dateTime.</code></pre>
   </div>
 
   <div class="slide" id="semantics">
@@ -276,10 +273,10 @@ PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
     </h2>
     <pre><code><span class="prefix">PREFIX as: &lt;https://www.w3.org/ns/activitystreams#&gt;
 PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
-&lt;#ruben-likes-iswc2018&gt; <mark>a as:Like;</mark>
+&lt;#ruben-likes-ebdvf2018&gt; <mark>a as:Like;</mark>
   <mark>as:actor</mark>  &lt;https://ruben.verborgh.org/profile/#me&gt;;
-  <mark>as:object</mark> &lt;http://iswc2018.semanticweb.org/#this&gt;;
-  <mark>as:published</mark> "2018-10-08T21:00:00Z"^^xsd:dateTime.</code></pre>
+  <mark>as:object</mark> &lt;https://www.european-big-data-value-forum.eu/#this&gt;;
+  <mark>as:published</mark> "2018-11-14T14:00:00Z"^^xsd:dateTime.</code></pre>
   </div>
 
   <div class="slide" id="integration">
@@ -289,46 +286,14 @@ PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
     </h2>
     <pre><code><span class="prefix">PREFIX as: &lt;https://www.w3.org/ns/activitystreams#&gt;
 PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;</span>
-&lt;#ruben-likes-iswc2018&gt; a as:Like;
-  as:actor  &lt;https://ruben.verborgh.org/profile/#me&gt;;
-  as:object &lt;http://iswc2018.semanticweb.org/#this&gt;;
-  as:published "2018-10-08T21:00:00Z"^^xsd:dateTime.
-&lt;#tim-likes-iswc2018&gt; a as:Like;
-  as:actor  &lt;https://www.w3.org/People/Berners-Lee/card#i&gt;;
-  as:object &lt;http://iswc2018.semanticweb.org/#this&gt;;
-  as:published "2018-10-08T21:00:00Z"^^xsd:dateTime.</code></pre>
-  </div>
-
-  <div class="slide" id="research">
-    <h2>
-      Decentralized Linked Data for people<br>
-      activates many options for research.
-    </h2>
-    <ul>
-      <li>
-        data transformation, modeling, and reasoning
-        <ul class="inline">
-          <li>getting RDF out of existing applications</li>
-          <li>on-the-fly conversion between ontologies</li>
-          <li>…</li>
-        </ul>
-      </li>
-      <li>
-        query evaluation
-        <ul class="inline">
-          <li>traversal-based querying</li>
-          <li>large-scale federation</li>
-          <li>…</li>
-        </ul>
-      </li>
-      <li>
-        policies and licenses
-        <ul class="inline">
-          <li>access rights for people and apps</li>
-          <li>…</li>
-        </ul>
-      </li>
-    </ul>
+&lt;#ruben-likes-ebdvf2018&gt; a as:Like;
+  as:actor  <mark>&lt;https://ruben.verborgh.org/profile/#me&gt;</mark>;
+  as:object <mark>&lt;https://www.european-big-data-value-forum.eu/#this&gt;</mark>;
+  as:published "2018-11-14T14:00:00Z"^^xsd:dateTime.
+&lt;#bart-likes-ebdvf2018&gt; a as:Like;
+  as:actor  <mark>&lt;https://example.org/bart/#me&gt;</mark>;
+  as:object <mark>&lt;https://www.european-big-data-value-forum.eu/#this&gt;</mark>;
+  as:published "2018-11-14T14:05:00Z"^^xsd:dateTime.</code></pre>
   </div>
 
   <div class="toc slide" id="toc-demo">
