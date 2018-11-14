@@ -32,6 +32,10 @@ p.venue {
   display: none;
 }
 
+ul.inline li {
+  white-space: nowrap;
+}
+
 .text.slide p {
   font-size: 1.4em;
   line-height: 1.5;
